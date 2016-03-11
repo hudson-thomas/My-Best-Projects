@@ -1,5 +1,5 @@
 # Feel Free to download,copy,ETC.
-#This was made on my Raspberry Pi.   You can find them here raspberrypi.org. Happy 4th Birthday Pi Foundation!
+#This was done on my Raspberry Pi.  You can find them here: Raspberrypi.org. Happy 4th Birthday Raspberry Pi!
 
 
 import turtle
@@ -12,6 +12,8 @@ wn.bgcolor("grey")
 
 colours = ["cyan", "green", "purple", "blue", "magenta", "yellow", "orange", "red", "pink"]
 
+colourstwo = ["white"]
+
 b.penup()
 b.forward(90)
 b.left(45)
@@ -20,6 +22,7 @@ b.pendown()
 def branch():
     for i in range(3):
         for i in range(3):
+          b.color(random.choice(colours))
           b.forward(30)
           b.backward(30)
           b.right(45)
@@ -35,5 +38,9 @@ for i in range(8):
     branch()
     b.left(45)
     wn.bgcolor(random.choice(colours))
+
+while True:
+    wn.bgcolor(random.choice(colourstwo))
+    
     
 wn.exitonclick()
