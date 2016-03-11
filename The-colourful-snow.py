@@ -1,5 +1,5 @@
 # Feel Free to download,copy,ETC.
-#Thanks to the Raspberry Pi Foundation www.raspberrypi.org for the main design!
+#This was made on my Raspberry Pi.   You can find them here raspberrypi.org. Happy 4th Birthday Pi Foundation!
 
 
 import turtle
