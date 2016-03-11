@@ -10,7 +10,7 @@ b = turtle.Turtle()
 wn.bgcolor("grey")
 
 
-colours = ["cyan", "green", "purple", "blue", "magenta", "yellow", "orange", "red", "pink"]
+colours = ["cyan", "green", "purple", "blue", "magenta", "orange", "red", "pink"]
 
 colourstwo = ["white"]
 
