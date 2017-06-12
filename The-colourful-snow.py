@@ -1,5 +1,5 @@
 # Feel Free to download,copy,ETC.
-#This was done on my Raspberry Pi.  You can find them here: Raspberrypi.org. Happy 4th Birthday Raspberry Pi!
+#This was done on my Raspberry Pi.  You can find them here: Raspberrypi.org.
 
 
 import turtle
